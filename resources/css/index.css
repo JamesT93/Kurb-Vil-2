@@ -1,0 +1,171 @@
+*{
+    background-color: black;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    margin:0;
+}
+
+/* HEADER SECTION */
+
+header{
+    display:flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+}
+
+header img{
+  height:80px;
+  width:80px;
+  border-radius: 45px;
+}
+
+nav{
+    width:500px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    border:1px solid black;
+    border-radius: 3px;
+    padding:3px 25px;
+    background-color: white;
+    color:black;
+}
+
+a:hover{
+    background-color: #9BFFAA;
+    color: #9102C3;
+}
+
+a:active{
+    background-color: #9102C3;
+    color: #9BFFAA;
+}
+
+/* HERO SECTION */
+
+hero{
+    display:flex;
+    justify-content: center;
+}
+
+iframe{
+    border:1px solid black;
+    margin:8px 0 0 0;
+}
+
+/* LINKS SECTION */
+
+.links{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    width:1080px;
+    margin:20px auto;
+    background-color: transparent;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:60px;
+}
+
+.social:hover{
+    filter:brightness(1.25);
+}
+
+.social img{
+    height:60px;
+    width: 60px;
+    background-color: transparent;
+}
+
+.social a{
+    background-color: transparent;
+}
+
+.social h3{
+    background-color: transparent;
+    position: relative;
+    bottom: 5px;
+    letter-spacing: 2px;
+}
+
+/* TICKET SECTION */
+
+table{
+    border:1px solid white;
+    margin:0 auto;
+    width:1400px;
+    text-align: center;
+    font-size: 28px;
+}
+
+table th{
+    border:1px solid white;
+    padding:5px;
+    letter-spacing: 1.5px;
+}
+
+table td{
+    border:1px solid white;
+    padding:5px;
+}
+
+/* BIO SECTION */
+
+.bio{
+    margin:0 auto;
+    text-align: center;
+    margin:40px 0 0 0;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.pics{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pics img{
+    height:400px;
+    width:400px;
+    margin:10px 7px 50px;
+}
+
+/* FOOTER SECTION */
+
+footer{
+    display:flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+}
+
+footer h3{
+    background-color: white;
+    color: black;
+}
+
+footer p{
+    background-color: white;
+    color:black;
+    margin:0 10px;
+}
