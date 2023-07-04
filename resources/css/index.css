@@ -41,6 +41,7 @@ a{
     padding:3px 25px;
     background-color: white;
     color:black;
+    text-align: center;
 }
 
 a:hover{
@@ -85,7 +86,7 @@ iframe{
 
 .links{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width:1080px;
     margin:20px auto;
     background-color: transparent;
@@ -95,7 +96,7 @@ iframe{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width:60px;
+    max-width:85px;
 }
 
 .social:hover{
@@ -103,8 +104,8 @@ iframe{
 }
 
 .social img{
-    height:60px;
-    width: 60px;
+    max-height:40px;
+    max-width: 40px;
     background-color: transparent;
 }
 
@@ -117,6 +118,7 @@ iframe{
     position: relative;
     bottom: 5px;
     letter-spacing: 2px;
+    font-size: 15px;
 }
 
 /* TICKET SECTION */
@@ -126,7 +128,7 @@ table{
     margin:0 auto;
     max-width:1400px;
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 table th{
@@ -148,6 +150,7 @@ table td{
     margin:40px 0 0 0;
     line-height: 35px;
     font-size: 18px;
+    padding:10px;
 }
 
 .pics{
